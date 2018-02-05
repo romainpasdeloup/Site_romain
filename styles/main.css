@@ -1,10 +1,5 @@
 body {
-  background-color: #11083d;
-}
-
-
-header {
-  min-height: 30vh;
+  background-color: #0d1e3c;
 }
 
 .name h1 {
@@ -12,12 +7,11 @@ header {
   color: white;
   display: flex;
   justify-content: flex-start;
-  padding-top: 40px;
   padding-left: 90px;
 }
 
 .name {
-  margin-top: 3vh;
+  margin-top: 17vh;
 }
 
 .name h2 {
@@ -35,15 +29,8 @@ p {
   justify-content: flex-end;
 }
 
-.mail {
-  font-size: 20px;
-  text-align: right;
-  color: white;
-  margin-right: 35px;
-}
-
 .welcome__info {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 23px;
     display: block;
     width: 60%;
@@ -61,7 +48,8 @@ header ul {
 }
 
 .rubrique {
-  padding: 70px;
+  padding-top: 70px;
+  padding-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px;
   font-size: 16px;
@@ -99,4 +87,20 @@ img {
 img:hover  {
   -webkit-transform:scale(1.1);
   opacity: 0.7;
+}
+
+.img_illu {
+  height: 550px;
+}
+
+.img_illu:hover {
+  -webkit-transform:scale(1);
+}
+
+.img_identite {
+  height: 380px;
+}
+
+.img_identite:hover {
+  -webkit-transform:scale(1);
 }
