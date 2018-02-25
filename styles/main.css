@@ -18,14 +18,25 @@ body {
 .name h2 {
   font-size: 25px;
   color: white;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-left: 90px;
 }
 
-video {
-  height: 400px;
-  margin-left: 20px;
-  border: solid 2px white;
+.welcome__info {
+    display: block;
+    width: 65%;
+    line-height: 28px;
+    font-size: 15px;
+    color: white;
+    padding-left: 90px;
+    padding-top: 10px;
+}
+
+header ul {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+  padding-top: 20px;
 }
 
 .descriptionidv {
@@ -96,20 +107,28 @@ video {
   line-height: 25px;
 }
 
-.welcome__info {
-    display: block;
-    width: 65%;
-    line-height: 28px;
-    font-size: 15px;
-    color: white;
-    padding-left: 90px;
+.descriptionothers {
+  font-size: 17px;
+  color: white;
+  padding-left: 18px;
+  width: 40%;
+  display: inline-block;
+  position: absolute;
+  margin-left: 47%;
+  margin-top: -600px;
+  line-height: 25px;
 }
 
-header ul {
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 40px;
-  padding-top: 20px;
+.descriptionothers2 {
+  font-size: 17px;
+  color: white;
+  padding-left: 18px;
+  width: 35%;
+  display: inline-block;
+  position: absolute;
+  margin-left: 53%;
+  margin-top: -325px;
+  line-height: 25px;
 }
 
 hr {
@@ -288,13 +307,28 @@ hr {
 
 .first {
   display: flex;
-  justify-content: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .base {
   height: 500px;
   padding-left: 150px;
   padding-top: 50px;
+}
+
+.restos {
+  height: 550px;
+  padding-left: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+video {
+  height: 400px;
+  margin-left: 80px;
+  border: solid 2px white;
+  margin-bottom: 50px;
 }
 
 .base2 {
@@ -324,14 +358,14 @@ hr {
 .mailaccueil {
   display: flex;
   justify-content: flex-end;
-  padding-top: 17vh;
+  padding-top: 13vh;
   padding-right: 50px;
 }
 
 footer p {
   display: flex;
   justify-content: flex-end;
-  padding-top: 7vh;
+  padding-top: 2vh;
   padding-right: 50px;
 }
 
