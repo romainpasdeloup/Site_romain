@@ -11,7 +11,8 @@ body {
 }
 
 .name {
-  margin-top: 17vh;
+  margin-top: 15vh;
+  line-height: 45px;
 }
 
 .name h2 {
@@ -21,21 +22,85 @@ body {
   padding-left: 90px;
 }
 
-p {
+video {
+  height: 400px;
+  margin-left: 20px;
+  border: solid 2px white;
+}
+
+.descriptionidv {
   font-size: 17px;
   color: white;
-  padding: 2em;
-  display: flex;
-  justify-content: flex-end;
+  padding-left: 50px;
+  width: 35%;
+  display: inline-block;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: -300px;
+  line-height: 25px;
+}
+
+.description {
+  font-size: 17px;
+  color: white;
+  padding-left: 50px;
+  width: 30%;
+  display: inline-block;
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 50%;
+  line-height: 25px;
+}
+
+.description2 {
+  font-size: 17px;
+  color: white;
+  padding-left: 50px;
+  width: 30%;
+  display: inline-block;
+  position: absolute;
+  margin-top: 720px;
+  margin-left: 12%;
+  line-height: 25px;
+}
+
+.titrage {
+  font-size: 30px;
+  padding-left: 50px;
+  display: inline-block;
+  position: absolute;
+  color: white;
+  margin-left: 50%;
+  margin-top: 100px;
+}
+
+.titrage2 {
+  font-size: 30px;
+  padding-left: 50px;
+  display: inline-block;
+  position: absolute;
+  color: white;
+  margin-left: 12%;
+  margin-top: 640px;
+}
+
+.descriptiontip {
+  font-size: 17px;
+  color: white;
+  padding-left: 50px;
+  width: 35%;
+  display: inline-block;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: -350px;
+  line-height: 25px;
 }
 
 .welcome__info {
-    margin-top: 10px;
-    margin-bottom: 23px;
     display: block;
-    width: 60%;
-    line-height: 30px;
-    font-size: 16px;
+    width: 65%;
+    line-height: 28px;
+    font-size: 15px;
     color: white;
     padding-left: 90px;
 }
@@ -43,9 +108,32 @@ p {
 header ul {
   display: flex;
   justify-content: flex-end;
-  color: white;
   padding-right: 40px;
-  margin-right: 40px;
+  padding-top: 20px;
+}
+
+hr {
+  width: 92%;
+  color: white;
+}
+
+.separation {
+  width: 55%;
+  color: white;
+}
+
+.matiere {
+  padding-top: 30px;;
+  padding-bottom: 20px;
+  padding-right: 50px;
+}
+
+.matiere h1 {
+  font-size: 45px;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 50px;
 }
 
 .snip1555 li {
@@ -114,34 +202,144 @@ header ul {
   justify-content: space-around;
 }
 
-img {
-  height: 310px;
-  margin: 15px;
+.myworktyp ul {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.img_illu {
-  height: 550px;
+.descvinyl {
+  font-size: 17px;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  color: white;
+  line-height: 25px;
 }
 
-.img_illu:hover {
-  -webkit-transform:scale(1);
+.descetiquette {
+  font-size: 17px;
+  width: 35%;
+  text-align: center;
+  margin: auto;
+  color: white;
+  line-height: 25px;
+  padding-bottom: 50px;
+}
+
+.illu1 {
+  height: 500px;
+  padding-top: 20px;
+  padding-left: 200px;
+}
+
+.illu2 {
+  height: 535px;
+  padding-top: 30px;
+  padding-left: 670px;
+}
+
+.illu3 {
+  height: 400px;
+}
+
+.illu4 {
+  height: 400px;
+}
+
+.myworktypo2 ul {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.myworktypo2 li {
+  padding: 20px
+}
+
+.vinyl {
+  padding: 20px;
+}
+
+.myworktypo3 ul {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .img_identite {
   height: 380px;
+  max-height: 100%;
 }
 
-.img_identite:hover {
-  -webkit-transform:scale(1);
+.portefolio {
+  height: 310px;
+  margin: 15px;
 }
 
+#illustration ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column;
+}
+
+.first {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.base {
+  height: 500px;
+  padding-left: 150px;
+  padding-top: 50px;
+}
+
+.base2 {
+  height: 400px;
+  padding-left: 150px;
+  padding-top: 50px;
+}
+
+.tiparo {
+  height: 500px;
+  padding-left: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.mywork ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.mywork li {
+  padding: 20px;
+}
+
+.mailaccueil {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 17vh;
+  padding-right: 50px;
+}
+
+footer p {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 7vh;
+  padding-right: 50px;
+}
 
 footer a {
-  font-size: 14px;
-  margin-top: 30px;
-  margin-right: 40px;
+  font-size: 16px;
   text-decoration: none;
   color: white;
+  padding: 10px;
 }
 
 .snip1491 {
@@ -162,7 +360,7 @@ footer a {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-transition: all 0.45s ease;
-  transition: all 0.5s ease;
+  transition: all 0.45s ease;
 }
 
 .snip1491 img {
@@ -192,9 +390,20 @@ footer a {
 }
 
 .snip1491 h3 {
+  margin-top: 5%;
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.snip1491 a {
+  text-decoration: none;
+  color: white;
   margin-top: 4%;
-  font-size: 1.2em;
-  padding: 0px;
+}
+
+.snip1491 a:hover {
+  color: white;
+  margin-top: 4%;
 }
 
 .snip141 a {
