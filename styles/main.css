@@ -24,7 +24,7 @@ body {
 
 .welcome__info {
     display: block;
-    width: 65%;
+    width: 62%;
     line-height: 28px;
     font-size: 15px;
     color: white;
@@ -355,17 +355,11 @@ video {
   padding: 20px;
 }
 
-.mailaccueil {
+footer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
-  padding-top: 13vh;
-  padding-right: 50px;
-}
-
-footer p {
-  display: flex;
-  justify-content: flex-end;
-  padding-top: 2vh;
+  padding-top: 15vh;
   padding-right: 50px;
 }
 
@@ -374,6 +368,21 @@ footer a {
   text-decoration: none;
   color: white;
   padding: 10px;
+}
+
+.num {
+  font-size: 16px;
+  color: white;
+  padding-top: 10px;
+}
+
+.mail {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.picto {
+  height: 35px;
 }
 
 .snip1491 {
