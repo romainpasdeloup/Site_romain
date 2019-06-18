@@ -789,7 +789,7 @@ header.BotomBordersOut .headeranim:hover:before {
   background-position: center;
   border-radius: 15px;
   grid-column: 1/ span 4;
-  grid-row: 2 / span 2;
+  grid-row: 3 / span 2;
   position: relative;
   overflow: hidden;
 }
@@ -877,7 +877,7 @@ header.BotomBordersOut .headeranim:hover:before {
 .grid-item.thirteen {
   background-image: url(../images/travaux/blopi-insta.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: top;
   border-radius: 15px;
   grid-column: 1/ span 3;
   position: relative;
@@ -926,7 +926,7 @@ header.BotomBordersOut .headeranim:hover:before {
 .wrapper-detail {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(3, 50px);
+  grid-auto-rows: 150px;
   grid-gap: 1em;
   margin-top: 8.5em;
   padding-left: 3em;
@@ -940,7 +940,7 @@ header.BotomBordersOut .headeranim:hover:before {
   border-radius: 15px;
 }*/
 
-.detail2 {
+.detail1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -949,7 +949,7 @@ header.BotomBordersOut .headeranim:hover:before {
   color: #2C4FD2;
 }
 
-.detail3 {
+.detail2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -957,12 +957,437 @@ header.BotomBordersOut .headeranim:hover:before {
   grid-row: 2;
 }
 
-.detail4 {
+.detail3 {
+  background-image: url(../images/travaux/blopi-insta.jpg);
+  background-size: cover;
+  background-position: center;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  grid-column: 7 / span 3;
-  grid-row: 4;
+  justify-content: center;
+  align-items: center;
+  grid-column: 3 / span 6;
+  grid-row: 4 / span 8;
+  border-radius: 10px;
+}
+
+.detail4 {
+  background-image: url(../images/travaux/blopi2.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2 / span 8;
+  grid-row: 12 / span 5;
+  border-radius: 10px;
+}
+
+.detail5 {
+  background-image: url(../images/travaux/blopi1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2 / span 8;
+  grid-row: 17 / span 5;
+  border-radius: 10px;
+}
+
+.detail6 {
+  background-image: url(../images/travaux/blopi3.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2 / span 8;
+  grid-row: 22 / span 5;
+  border-radius: 10px;
+}
+
+.detail7 {
+  background-image: url(../images/travaux/blopi4.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2 / span 8;
+  grid-row: 27 / span 5;
+  border-radius: 10px;
+}
+
+.detail8 {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2 / span 8;
+  grid-row: 32 / span 5;
+  border-radius: 10px;
+}
+
+
+.detail9 {
+  background-image: url(../images/travaux/blopi5.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2 / span 8;
+  grid-row: 37 / span 5;
+  border-radius: 10px;
+}
+
+.detail10 {
+  background-image: url(../images/travaux/blopi6.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2 / span 8;
+  grid-row: 42 / span 5;
+  border-radius: 10px;
+}
+
+.detail11 {
+  background-image: url(../images/travaux/blopiappli.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2 / span 8;
+  grid-row: 47 / span 5;
+  border-radius: 10px;
+}
+
+.detail12 {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 3 / span 3;
+  grid-row: 51 / span 9;
+}
+
+.detail13 {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 6 / span 3;
+  grid-row: 51 / span 9;
+}
+
+.detailbx1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 4 / span 4;
+  grid-row: 1;
+  color: #2C4FD2;
+}
+
+.detailbx2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 4 / span 4;
+  grid-row: 2;
+}
+
+.detailbx3 {
+  background-image: url(../images/travaux/bx_rose.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 4 / span 4;
+  grid-row: 3 / span 4;
+  border-radius: 10px;
+}
+
+.detailbx4 {
+  background-image: url(../images/travaux/bxroseillu1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 3 / span 3;
+  grid-row: 7 / span 3;
+  border-radius: 10px;
+}
+
+.detailbx5 {
+  background-image: url(../images/travaux/bxroseillu2.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 6 / span 3;
+  grid-row: 7 / span 3;
+  border-radius: 10px;
+}
+
+.detailbx6 {
+  background-image: url(../images/travaux/bxroseillu3.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 3 / span 3;
+  grid-row: 10 / span 3;
+  border-radius: 10px;
+}
+
+.detailbx7 {
+  background-image: url(../images/travaux/bxroseillu4.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 6 / span 3;
+  grid-row: 10 / span 3;
+  border-radius: 10px;
+}
+
+.detailbx8 {
+  background-image: url(../images/travaux/bouteilles.jpg);
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2 / span 8;
+  grid-row: 13 / span 5;
+  border-radius: 10px;
+}
+
+.detailbx9 {
+  background-image: url(../images/travaux/mockup_2.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 6 / span 5;
+  grid-row: 18 / span 5;
+  border-radius: 10px;
+}
+
+.detailbx10 {
+  background-image: url(../images/travaux/mockup_1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 1 / span 5;
+  grid-row: 18 / span 5;
+  border-radius: 10px;
+}
+
+.detailbase1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 4 / span 4;
+  grid-row: 1;
+  color: #2C4FD2;
+}
+
+.detailbase2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 4 / span 4;
+  grid-row: 2;
+}
+
+.detailbase3 {
+  background-image: url(../images/travaux/logobase.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 4 / span 4;
+  grid-row: 3 / span 2;
+  border-radius: 10px;
+}
+
+.detailbase4 {
+  background-image: url(../images/travaux/visitcard.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 3 / span 6;
+  grid-row: 6 / span 5;
+  border-radius: 10px;
+}
+
+.detailbase5 {
+  background-image: url(../images/travaux/affiche_finale_1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 3 / span 3;
+  grid-row: 11 / span 5;
+  border-radius: 10px;
+}
+
+.detailbase6 {
+  background-image: url(../images/travaux/affiche_finale_2.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 6 / span 3;
+  grid-row: 11 / span 5;
+  border-radius: 10px;
+}
+
+.detailbase7 {
+  background-image: url(../images/travaux/mockup-abri.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2 / span 8;
+  grid-row: 16 / span 6;
+  border-radius: 10px;
+}
+
+.detailbase8 {
+  background-image: url(../images/travaux/flyers.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 3 / span 6;
+  grid-row: 22 / span 6;
+  border-radius: 10px;
+}
+
+
+.detailfaf1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 4 / span 4;
+  grid-row: 1;
+  color: #2C4FD2;
+}
+
+.detailfaf2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 4 / span 4;
+  grid-row: 2;
+}
+
+
+.detailfaf3 {
+  background-image: url(../images/travaux/logo-carre-blanc.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 4 / span 4;
+  grid-row: 3 / span 3;
+  border-radius: 10px;
+}
+
+.detailfaf4 {
+  background-image: url(../images/travaux/faf1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 3 / span 3;
+  grid-row: 6 / span 4;
+  border-radius: 10px;
+}
+
+.detailfaf5 {
+  background-image: url(../images/travaux/faf2.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 6 / span 4;
+  grid-row: 6 / span 4;
+  border-radius: 10px;
+}
+
+.detailfaf6 {
+  background-image: url(../images/travaux/faf3.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 1 / span 3;
+  grid-row: 10 / span 4;
+  border-radius: 10px;
+}
+
+.detailfaf7 {
+  background-image: url(../images/travaux/faf4.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 4 / span 6;
+  grid-row: 10 / span 5;
+  border-radius: 10px;
+}
+
+.detailfaf8 {
+  background-image: url(../images/travaux/fafgoodies1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2 / span 8;
+  grid-row: 15 / span 5;
+  border-radius: 10px;
+}
+
+.detailfaf9 {
+  background-image: url(../images/travaux/fafgoodies2.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2 / span 8;
+  grid-row: 20 / span 5;
+  border-radius: 10px;
 }
 
 /*about
@@ -973,7 +1398,7 @@ header.BotomBordersOut .headeranim:hover:before {
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(3, 10vw);
   grid-gap: 1.5em;
-  margin-top: 10em;
+  margin-top: 13em;
   padding-left: 3em;
   padding-right: 4em;
   padding-bottom: 4em;
@@ -1114,14 +1539,14 @@ footer {
 }
 
 .footabout {
-  margin-top: 82px;
+  margin-top: 137px;
   width: 100%;
   height: 3em;
   box-shadow: 0 15px 40px rgb(2, 0, 49, .45);
 }
 
 .footcontact {
-  margin-top: 167px;
+  margin-top: 270px;
   width: 100%;
   height: 3em;
   box-shadow: 0 15px 40px rgb(2, 0, 49, .45);
