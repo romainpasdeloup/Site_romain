@@ -379,7 +379,7 @@ header.BotomBordersOut .headeranim:hover:before {
   background-size: cover;
   background-position: center;
   border-radius: 15px;
-  grid-column: 3/ span 2;
+  grid-column: 5/ span 2;
   position: relative;
   overflow: hidden;
 }
@@ -424,7 +424,7 @@ header.BotomBordersOut .headeranim:hover:before {
   background-size: cover;
   background-position: center;
   border-radius: 15px;
-  grid-column: 5/ span 2;
+  grid-column: 3/ span 2;
   position: relative;
   overflow: hidden;
 }
@@ -469,7 +469,7 @@ header.BotomBordersOut .headeranim:hover:before {
   background-size: cover;
   background-position: center;
   border-radius: 15px;
-  grid-column: 1/ span 6;
+  grid-column: 4/ span 3;
   position: relative;
   overflow: hidden;
 }
@@ -653,7 +653,7 @@ header.BotomBordersOut .headeranim:hover:before {
   background-size: cover;
   background-position: center;
   border-radius: 15px;
-  grid-column: 3/ span 2;
+  grid-column: 5/ span 2;
   position: relative;
   overflow: hidden;
 }
@@ -789,7 +789,7 @@ header.BotomBordersOut .headeranim:hover:before {
   background-position: center;
   border-radius: 15px;
   grid-column: 1/ span 4;
-  grid-row: 5 / span 2;
+  grid-row: 2 / span 2;
   position: relative;
   overflow: hidden;
 }
@@ -834,7 +834,7 @@ header.BotomBordersOut .headeranim:hover:before {
   background-size: cover;
   background-position: center;
   border-radius: 15px;
-  grid-column: 5/ span 2;
+  grid-column: 3/ span 2;
   position: relative;
   overflow: hidden;
 }
@@ -871,6 +871,52 @@ header.BotomBordersOut .headeranim:hover:before {
 }
 
 .grid-item.twelve a:hover {
+  opacity: 1;
+}
+
+.grid-item.thirteen {
+  background-image: url(../images/travaux/blopi-insta.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  grid-column: 1/ span 3;
+  position: relative;
+  overflow: hidden;
+}
+
+.grid-item.thirteen::after {
+  content: '';
+  display: block;
+  background: #020031;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: all ease-in-out 200ms;
+}
+
+.grid-item.thirteen:hover::after {
+  opacity: .7;
+  transform: translateY(0px);
+}
+
+.grid-item.thirteen a {
+  position: absolute;
+  z-index: 1;
+  color: #FFF;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 10rem;
+  width: 100%;
+  opacity: 0;
+  transition: all ease-in-out 200ms;
+}
+
+.grid-item.thirteen a:hover {
   opacity: 1;
 }
 
@@ -941,25 +987,28 @@ header.BotomBordersOut .headeranim:hover:before {
   object-position: top;
 }
 
-.about {
+.about.one {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.about.one {
   grid-column: 1 / span 3;
   grid-row: 1 / span 3;
 }
 
 .about.two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-column: 4 / span 2;
   grid-row: 2;
 }
 
 .about.three {
-  grid-column: 2 / span 4;
-  grid-row: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 3   / span 4;
+  grid-row: 1;
 }
 
 /*contact
