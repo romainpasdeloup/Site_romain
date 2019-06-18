@@ -52,6 +52,14 @@ p {
   color: white;
 }
 
+.description {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 17px;
+  line-height: 1.5;
+  color: white;
+}
+
 .hi {
   font-family: 'Open Sans', sans-serif;
   font-size: 30px;
