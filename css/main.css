@@ -222,7 +222,7 @@ header {
   position: absolute;
   width: 100%;
   top: 0;
-  height: 5em;
+  height: 4.5em;
   position: fixed;
   background-color: #2C4FD2;
   box-shadow: 0 15px 40px rgb(2, 0, 49, .25);
@@ -232,7 +232,7 @@ header {
 .logo {
   float: left;
   margin-left: 2.25em;
-  margin-top: .75em;
+  margin-top: .70em;
   width: 50px;
   height: 50px;
 }
@@ -310,14 +310,22 @@ header.BotomBordersOut .headeranim:hover:before {
 /*portfolio
 ========================*/
 
+.showreel {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
 
+}
 
 .wrapper {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-auto-rows: 520px;
-  grid-gap: 1.2rem;
-  margin-top: 8rem;
+  grid-auto-rows: 350px;
+  grid-gap: 0.8rem;
+  margin-top: 4rem;
   margin-left: 6.5em;
   margin-right: 8em;
   margin-bottom: 2.5rem;
@@ -334,8 +342,8 @@ header.BotomBordersOut .headeranim:hover:before {
   background-image: url(../images/travaux/kaboom-800.jpg);
   background-size: cover;
   background-position: top;
-  border-radius: 15px;
-  grid-column: 1/ span 2;
+  border-radius: 10px;
+  grid-column: 3/ span 2;
   position: relative;
   overflow: hidden;
 }
@@ -365,7 +373,7 @@ header.BotomBordersOut .headeranim:hover:before {
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
-  padding: 10rem;
+  padding: 6rem;
   opacity: 0;
   transition: all ease-in-out 200ms;
 }
@@ -378,8 +386,8 @@ header.BotomBordersOut .headeranim:hover:before {
   background-image: url(../images/travaux/by-800.jpg);
   background-size: cover;
   background-position: center;
-  border-radius: 15px;
-  grid-column: 5/ span 2;
+  border-radius: 10px;
+  grid-column: 1/ span 2;
   position: relative;
   overflow: hidden;
 }
@@ -410,7 +418,7 @@ header.BotomBordersOut .headeranim:hover:before {
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
-  padding: 10rem;
+  padding: 6rem;
   opacity: 0;
   transition: all ease-in-out 200ms;
 }
@@ -423,8 +431,8 @@ header.BotomBordersOut .headeranim:hover:before {
   background-image: url(../images/travaux/tough-800.jpg);
   background-size: cover;
   background-position: center;
-  border-radius: 15px;
-  grid-column: 3/ span 2;
+  border-radius: 10px;
+  grid-column: 5/ span 2;
   position: relative;
   overflow: hidden;
 }
@@ -455,7 +463,7 @@ header.BotomBordersOut .headeranim:hover:before {
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
-  padding: 10rem;
+  padding: 6rem;
   opacity: 0;
   transition: all ease-in-out 200ms;
 }
@@ -465,11 +473,11 @@ header.BotomBordersOut .headeranim:hover:before {
 }
 
 .grid-item.four {
-  background-image: url(../images/travaux/food_truck_site2.jpg);
+  background-image: url(../images/travaux/logo-carre-blanc.png);
   background-size: cover;
   background-position: center;
-  border-radius: 15px;
-  grid-column: 4/ span 3;
+  border-radius: 10px;
+  grid-column: 3/ span 2;
   position: relative;
   overflow: hidden;
 }
@@ -500,7 +508,7 @@ header.BotomBordersOut .headeranim:hover:before {
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
-  padding: 10rem;
+  padding: 6rem;
   width: 100%;
   opacity: 0;
   transition: all ease-in-out 200ms;
@@ -514,8 +522,8 @@ header.BotomBordersOut .headeranim:hover:before {
   background-image: url(../images/travaux/base_site0.jpg);
   background-size: cover;
   background-position: center;
-  border-radius: 15px;
-  grid-column: 1/ span 3;
+  border-radius: 10px;
+  grid-column: 5/ span 2;
   position: relative;
   overflow: hidden;
 }
@@ -547,7 +555,7 @@ header.BotomBordersOut .headeranim:hover:before {
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
-  padding: 10rem;
+  padding: 6rem;
   width: 100%;
   opacity: 0;
   transition: all ease-in-out 200ms;
@@ -561,8 +569,8 @@ header.BotomBordersOut .headeranim:hover:before {
   background-image: url(../images/travaux/bx_rose.jpg);
   background-size: cover;
   background-position: center;
-  border-radius: 15px;
-  grid-column: 4/ span 3;
+  border-radius: 10px;
+  grid-column: 1/ span 2;
   position: relative;
   overflow: hidden;
 }
@@ -593,7 +601,7 @@ header.BotomBordersOut .headeranim:hover:before {
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
-  padding: 10rem;
+  padding: 6rem;
   width: 100%;
   opacity: 0;
   transition: all ease-in-out 200ms;
@@ -607,8 +615,8 @@ header.BotomBordersOut .headeranim:hover:before {
   background-image: url(../images/travaux/lino-800.jpg);
   background-size: cover;
   background-position: center;
-  border-radius: 15px;
-  grid-column: 1/ span 2;
+  border-radius: 10px;
+  grid-column: 3/ span 2;
   position: relative;
   overflow: hidden;
 }
@@ -639,7 +647,7 @@ header.BotomBordersOut .headeranim:hover:before {
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
-  padding: 10rem;
+  padding: 6rem;
   opacity: 0;
   transition: all ease-in-out 200ms;
 }
@@ -648,11 +656,11 @@ header.BotomBordersOut .headeranim:hover:before {
   opacity: 1;
 }
 
-.grid-item.eight {
+//.grid-item.eight {
   background-image: url(../images/travaux/ravie-800.jpg);
   background-size: cover;
   background-position: center;
-  border-radius: 15px;
+  border-radius: 10px;
   grid-column: 5/ span 2;
   position: relative;
   overflow: hidden;
@@ -684,21 +692,21 @@ header.BotomBordersOut .headeranim:hover:before {
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
-  padding: 10rem;
+  padding: 6rem;
   opacity: 0;
   transition: all ease-in-out 200ms;
 }
 
 .grid-item.eight a:hover {
   opacity: 1;
-}
+}*
 
 .grid-item.nine {
   background-image: url(../images/travaux/animation1.gif);
   background-size: cover;
   background-position: center;
-  border-radius: 15px;
-  grid-column: 5/ span 2;
+  border-radius: 10px;
+  grid-column: 3/ span 2;
   position: relative;
   overflow: hidden;
 }
@@ -729,7 +737,7 @@ header.BotomBordersOut .headeranim:hover:before {
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
-  padding: 10rem;
+  padding: 6rem;
   opacity: 0;
   transition: all ease-in-out 200ms;
 }
@@ -742,7 +750,7 @@ header.BotomBordersOut .headeranim:hover:before {
   background-image: url(../images/travaux/animation3.gif);
   background-size: cover;
   background-position: center;
-  border-radius: 15px;
+  border-radius: 10px;
   grid-column: 5/ span 2;
   position: relative;
   overflow: hidden;
@@ -774,7 +782,7 @@ header.BotomBordersOut .headeranim:hover:before {
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
-  padding: 10rem;
+  padding: 6rem;
   opacity: 0;
   transition: all ease-in-out 200ms;
 }
@@ -787,9 +795,9 @@ header.BotomBordersOut .headeranim:hover:before {
   background-image: url(../images/travaux/animation4.gif);
   background-size: cover;
   background-position: center;
-  border-radius: 15px;
-  grid-column: 1/ span 4;
-  grid-row: 3 / span 2;
+  border-radius: 10px;
+  grid-column: 1/ span 2;
+  grid-row: 3;
   position: relative;
   overflow: hidden;
 }
@@ -820,7 +828,7 @@ header.BotomBordersOut .headeranim:hover:before {
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
-  padding: 10rem;
+  padding: 20rem;
   opacity: 0;
   transition: all ease-in-out 200ms;
 }
@@ -833,8 +841,8 @@ header.BotomBordersOut .headeranim:hover:before {
   background-image: url(../images/travaux/animation2.gif);
   background-size: cover;
   background-position: center;
-  border-radius: 15px;
-  grid-column: 3/ span 2;
+  border-radius: 10px;
+  grid-column: 5/ span 2;
   position: relative;
   overflow: hidden;
 }
@@ -865,7 +873,7 @@ header.BotomBordersOut .headeranim:hover:before {
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
-  padding: 10rem;
+  padding: 6rem;
   opacity: 0;
   transition: all ease-in-out 200ms;
 }
@@ -878,8 +886,8 @@ header.BotomBordersOut .headeranim:hover:before {
   background-image: url(../images/travaux/blopi-insta.jpg);
   background-size: cover;
   background-position: top;
-  border-radius: 15px;
-  grid-column: 1/ span 3;
+  border-radius: 10px;
+  grid-column: 1/ span 2;
   position: relative;
   overflow: hidden;
 }
@@ -910,13 +918,283 @@ header.BotomBordersOut .headeranim:hover:before {
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
-  padding: 10rem;
+  padding: 6rem;
   width: 100%;
   opacity: 0;
   transition: all ease-in-out 200ms;
 }
 
 .grid-item.thirteen a:hover {
+  opacity: 1;
+}
+
+.grid-item.fourteen {
+  background-image: url(../images/travaux/let_go_1.gif);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  grid-column: 1/ span 2;
+  position: relative;
+  overflow: hidden;
+}
+
+.grid-item.fourteen::after {
+  content: '';
+  display: block;
+  background: #020031;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: all ease-in-out 200ms;
+}
+
+.grid-item.fourteen:hover::after {
+  opacity: .7;
+  transform: translateX(0px) translateY(0px);
+}
+
+.grid-item.fourteen a {
+  position: absolute;
+  z-index: 1;
+  color: #FFF;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 6rem;
+  opacity: 0;
+  transition: all ease-in-out 200ms;
+}
+
+.grid-item.fourteen a:hover {
+  opacity: 1;
+}
+
+.grid-item.fifteen {
+  background-image: url(../images/travaux/let_go_2.gif);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  grid-column: 3/ span 2;
+  position: relative;
+  overflow: hidden;
+}
+
+.grid-item.fifteen::after {
+  content: '';
+  display: block;
+  background: #020031;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: all ease-in-out 200ms;
+}
+
+.grid-item.fifteen:hover::after {
+  opacity: .7;
+  transform: translateX(0px) translateY(0px);
+}
+
+.grid-item.fifteen a {
+  position: absolute;
+  z-index: 1;
+  color: #FFF;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 6rem;
+  opacity: 0;
+  transition: all ease-in-out 200ms;
+}
+
+.grid-item.fifteen a:hover {
+  opacity: 1;
+}
+
+.grid-item.sixteen {
+  background-image: url(../images/travaux/let_go_3.gif);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  grid-column: 5/ span 2;
+  position: relative;
+  overflow: hidden;
+}
+
+.grid-item.sixteen::after {
+  content: '';
+  display: block;
+  background: #020031;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: all ease-in-out 200ms;
+}
+
+.grid-item.sixteen:hover::after {
+  opacity: .7;
+  transform: translateX(0px) translateY(0px);
+}
+
+.grid-item.sixteen a {
+  position: absolute;
+  z-index: 1;
+  color: #FFF;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 6rem;
+  opacity: 0;
+  transition: all ease-in-out 200ms;
+}
+
+.grid-item.sixteen a:hover {
+  opacity: 1;
+}
+
+.grid-item.seventeen {
+  background-image: url(../images/travaux/robin.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  grid-column: 3/ span 2;
+  position: relative;
+  overflow: hidden;
+}
+
+.grid-item.seventeen::after {
+  content: '';
+  display: block;
+  background: #020031;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: all ease-in-out 200ms;
+}
+
+.grid-item.seventeen:hover::after {
+  opacity: .7;
+  transform: translateX(0px) translateY(0px);
+}
+
+.grid-item.seventeen a {
+  position: absolute;
+  z-index: 1;
+  color: #FFF;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 6rem;
+  opacity: 0;
+  transition: all ease-in-out 200ms;
+}
+
+.grid-item.seventeen a:hover {
+  opacity: 1;
+}
+
+.grid-item.eighteen {
+  background-image: url(../images/travaux/vignette_le_phare_final.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  grid-column: 1/ span 2;
+  position: relative;
+  overflow: hidden;
+}
+
+.grid-item.eighteen::after {
+  content: '';
+  display: block;
+  background: #020031;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: all ease-in-out 200ms;
+}
+
+.grid-item.eighteen:hover::after {
+  opacity: .7;
+  transform: translateX(0px) translateY(0px);
+}
+
+.grid-item.eighteen a {
+  position: absolute;
+  z-index: 1;
+  color: #FFF;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 6rem;
+  opacity: 0;
+  transition: all ease-in-out 200ms;
+}
+
+.grid-item.eighteen a:hover {
+  opacity: 1;
+}
+
+.grid-item.nineteen {
+  background-image: url(../images/travaux/invite_site.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  grid-column: 5/ span 2;
+  position: relative;
+  overflow: hidden;
+}
+
+.grid-item.nineteen::after {
+  content: '';
+  display: block;
+  background: #020031;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: all ease-in-out 200ms;
+}
+
+.grid-item.nineteen:hover::after {
+  opacity: .7;
+  transform: translateX(0px) translateY(0px);
+}
+
+.grid-item.nineteen a {
+  position: absolute;
+  z-index: 1;
+  color: #FFF;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 6rem;
+  opacity: 0;
+  transition: all ease-in-out 200ms;
+}
+
+.grid-item.nineteen a:hover {
   opacity: 1;
 }
 
@@ -944,7 +1222,7 @@ header.BotomBordersOut .headeranim:hover:before {
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-column: 4 / span 4;
+  grid-column: 3 / span 6;
   grid-row: 1;
   color: #2C4FD2;
 }
@@ -953,8 +1231,9 @@ header.BotomBordersOut .headeranim:hover:before {
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-column: 4 / span 4;
+  grid-column: 3 / span 6;
   grid-row: 2;
+  margin-top: 60px;
 }
 
 .detail3 {
@@ -965,7 +1244,7 @@ header.BotomBordersOut .headeranim:hover:before {
   justify-content: center;
   align-items: center;
   grid-column: 3 / span 6;
-  grid-row: 4 / span 8;
+  grid-row: 4 / span 4;
   border-radius: 10px;
 }
 
@@ -977,7 +1256,7 @@ header.BotomBordersOut .headeranim:hover:before {
   justify-content: center;
   align-items: center;
   grid-column: 2 / span 8;
-  grid-row: 12 / span 5;
+  grid-row: 8 / span 3;
   border-radius: 10px;
 }
 
@@ -989,7 +1268,7 @@ header.BotomBordersOut .headeranim:hover:before {
   justify-content: center;
   align-items: center;
   grid-column: 2 / span 8;
-  grid-row: 17 / span 5;
+  grid-row: 11 / span 3;
   border-radius: 10px;
 }
 
@@ -1001,7 +1280,7 @@ header.BotomBordersOut .headeranim:hover:before {
   justify-content: center;
   align-items: center;
   grid-column: 2 / span 8;
-  grid-row: 22 / span 5;
+  grid-row: 14 / span 3;
   border-radius: 10px;
 }
 
@@ -1013,7 +1292,7 @@ header.BotomBordersOut .headeranim:hover:before {
   justify-content: center;
   align-items: center;
   grid-column: 2 / span 8;
-  grid-row: 27 / span 5;
+  grid-row: 17 / span 3;
   border-radius: 10px;
 }
 
@@ -1024,7 +1303,7 @@ header.BotomBordersOut .headeranim:hover:before {
   justify-content: center;
   align-items: center;
   grid-column: 2 / span 8;
-  grid-row: 32 / span 5;
+  grid-row: 20 / span 4;
   border-radius: 10px;
 }
 
@@ -1037,7 +1316,7 @@ header.BotomBordersOut .headeranim:hover:before {
   justify-content: center;
   align-items: center;
   grid-column: 2 / span 8;
-  grid-row: 37 / span 5;
+  grid-row: 25 / span 3;
   border-radius: 10px;
 }
 
@@ -1049,7 +1328,7 @@ header.BotomBordersOut .headeranim:hover:before {
   justify-content: center;
   align-items: center;
   grid-column: 2 / span 8;
-  grid-row: 42 / span 5;
+  grid-row: 28 / span 3;
   border-radius: 10px;
 }
 
@@ -1061,7 +1340,7 @@ header.BotomBordersOut .headeranim:hover:before {
   justify-content: center;
   align-items: center;
   grid-column: 2 / span 8;
-  grid-row: 47 / span 5;
+  grid-row: 31 / span 3;
   border-radius: 10px;
 }
 
@@ -1071,8 +1350,8 @@ header.BotomBordersOut .headeranim:hover:before {
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-column: 3 / span 3;
-  grid-row: 51 / span 9;
+  grid-column: 2 / span 3;
+  grid-row: 33 / span 9;
 }
 
 .detail13 {
@@ -1081,8 +1360,8 @@ header.BotomBordersOut .headeranim:hover:before {
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-column: 6 / span 3;
-  grid-row: 51 / span 9;
+  grid-column: 7 / span 3;
+  grid-row: 33 / span 9;
 }
 
 .detailbx1 {
@@ -1098,7 +1377,7 @@ header.BotomBordersOut .headeranim:hover:before {
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-column: 4 / span 4;
+  grid-column: 3 / span 6;
   grid-row: 2;
 }
 
@@ -1110,8 +1389,9 @@ header.BotomBordersOut .headeranim:hover:before {
   justify-content: center;
   align-items: center;
   grid-column: 4 / span 4;
-  grid-row: 3 / span 4;
+  grid-row: 3 / span 2;
   border-radius: 10px;
+  margin-top: 50px;
 }
 
 .detailbx4 {
@@ -1121,8 +1401,8 @@ header.BotomBordersOut .headeranim:hover:before {
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-column: 3 / span 3;
-  grid-row: 7 / span 3;
+  grid-column: 2 / span 4;
+  grid-row: 5 / span 3;
   border-radius: 10px;
 }
 
@@ -1133,8 +1413,8 @@ header.BotomBordersOut .headeranim:hover:before {
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-column: 6 / span 3;
-  grid-row: 7 / span 3;
+  grid-column: 6 / span 4;
+  grid-row: 5 / span 3;
   border-radius: 10px;
 }
 
@@ -1145,8 +1425,8 @@ header.BotomBordersOut .headeranim:hover:before {
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-column: 3 / span 3;
-  grid-row: 10 / span 3;
+  grid-column: 2 / span 4;
+  grid-row: 8 / span 3;
   border-radius: 10px;
 }
 
@@ -1157,8 +1437,8 @@ header.BotomBordersOut .headeranim:hover:before {
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-column: 6 / span 3;
-  grid-row: 10 / span 3;
+  grid-column: 6 / span 4;
+  grid-row: 8 / span 3;
   border-radius: 10px;
 }
 
@@ -1170,7 +1450,7 @@ header.BotomBordersOut .headeranim:hover:before {
   justify-content: center;
   align-items: center;
   grid-column: 2 / span 8;
-  grid-row: 13 / span 5;
+  grid-row: 11 / span 4;
   border-radius: 10px;
 }
 
@@ -1182,7 +1462,7 @@ header.BotomBordersOut .headeranim:hover:before {
   justify-content: center;
   align-items: center;
   grid-column: 6 / span 5;
-  grid-row: 18 / span 5;
+  grid-row: 15 / span 4;
   border-radius: 10px;
 }
 
@@ -1194,7 +1474,7 @@ header.BotomBordersOut .headeranim:hover:before {
   justify-content: center;
   align-items: center;
   grid-column: 1 / span 5;
-  grid-row: 18 / span 5;
+  grid-row: 15 / span 4;
   border-radius: 10px;
 }
 
@@ -1211,7 +1491,7 @@ header.BotomBordersOut .headeranim:hover:before {
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-column: 4 / span 4;
+  grid-column: 3 / span 6;
   grid-row: 2;
 }
 
@@ -1222,7 +1502,7 @@ header.BotomBordersOut .headeranim:hover:before {
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-column: 4 / span 4;
+  grid-column: 3 / span 6;
   grid-row: 3 / span 2;
   border-radius: 10px;
 }
@@ -1235,7 +1515,7 @@ header.BotomBordersOut .headeranim:hover:before {
   justify-content: center;
   align-items: center;
   grid-column: 3 / span 6;
-  grid-row: 6 / span 5;
+  grid-row: 5 / span 5;
   border-radius: 10px;
 }
 
@@ -1246,8 +1526,8 @@ header.BotomBordersOut .headeranim:hover:before {
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-column: 3 / span 3;
-  grid-row: 11 / span 5;
+  grid-column: 1 / span 5;
+  grid-row: 10 / span 5;
   border-radius: 10px;
 }
 
@@ -1258,13 +1538,13 @@ header.BotomBordersOut .headeranim:hover:before {
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-column: 6 / span 3;
+  grid-column: 6 / span 5;
   grid-row: 11 / span 5;
   border-radius: 10px;
 }
 
 .detailbase7 {
-  background-image: url(../images/travaux/mockup-abri.jpg);
+  background-image: url(../images/travaux/flyers.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -1276,7 +1556,7 @@ header.BotomBordersOut .headeranim:hover:before {
 }
 
 .detailbase8 {
-  background-image: url(../images/travaux/flyers.jpg);
+  background-image: url(../images/travaux/mockup-abri.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -1301,7 +1581,7 @@ header.BotomBordersOut .headeranim:hover:before {
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-column: 4 / span 4;
+  grid-column: 3 / span 6;
   grid-row: 2;
 }
 
@@ -1362,7 +1642,7 @@ header.BotomBordersOut .headeranim:hover:before {
   justify-content: center;
   align-items: center;
   grid-column: 4 / span 6;
-  grid-row: 10 / span 5;
+  grid-row: 10 / span 4;
   border-radius: 10px;
 }
 
@@ -1374,7 +1654,7 @@ header.BotomBordersOut .headeranim:hover:before {
   justify-content: center;
   align-items: center;
   grid-column: 2 / span 8;
-  grid-row: 15 / span 5;
+  grid-row: 14 / span 5;
   border-radius: 10px;
 }
 
@@ -1386,7 +1666,7 @@ header.BotomBordersOut .headeranim:hover:before {
   justify-content: center;
   align-items: center;
   grid-column: 2 / span 8;
-  grid-row: 20 / span 5;
+  grid-row: 19 / span 3;
   border-radius: 10px;
 }
 
@@ -1405,9 +1685,7 @@ header.BotomBordersOut .headeranim:hover:before {
 }
 
 .wrapper-about img {
-  width: 70%;
-  height: 100%;
-  border-radius: 3000px;
+  width: 85%;
   object-fit: cover;
   object-position: top;
 }
@@ -1444,7 +1722,7 @@ header.BotomBordersOut .headeranim:hover:before {
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 1.5em;
   grid-auto-rows: 50px;
-  margin-top: 20em;
+  margin-top: 12em;
   padding-left: 3em;
   padding-right: 4em;
   padding-bottom: 6em;
@@ -1464,23 +1742,17 @@ header.BotomBordersOut .headeranim:hover:before {
 .contact.two {
   text-align: center;
   grid-column: 3 / span 2;
-}
-
-.contact.three {
-  text-align: center;
-  grid-column: 3 / span 2;
-  grid-row: 4;
-}
+$}
 
 .contact.four {
   display: flex;
   justify-content: space-between;
   grid-column: 3 / span 2;
-  grid-row: 5;
+  grid-row: 4;
 }
 
 .reseaux {
-  width: 50px;
+  width: 45px;
   margin: 20px;
 }
 
@@ -1539,14 +1811,16 @@ footer {
 }
 
 .footabout {
-  margin-top: 137px;
+  position: absolute;
+  bottom: 0;
   width: 100%;
   height: 3em;
   box-shadow: 0 15px 40px rgb(2, 0, 49, .45);
 }
 
 .footcontact {
-  margin-top: 270px;
+  position: absolute;
+  bottom: 0;
   width: 100%;
   height: 3em;
   box-shadow: 0 15px 40px rgb(2, 0, 49, .45);
