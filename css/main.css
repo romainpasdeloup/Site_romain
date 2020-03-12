@@ -1839,3 +1839,456 @@ footer {
   margin-top: 1.2em;
   margin-left: 3em;
 }
+
+
+/*media queries
+========================*/
+
+@media screen and (max-width: 900px){
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 1rem;
+    grid-auto-rows: 350px;
+    margin-top: 4rem;
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-bottom: 2.5rem;
+  }
+
+  .grid-item.one {
+    background-image: url(../images/travaux/kaboom-800.jpg);
+    background-size: cover;
+    background-position: top;
+    border-radius: 10px;
+    grid-column: 2/ span 3;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.two {
+    background-image: url(../images/travaux/by-800.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 2/ span 3;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.three {
+    background-image: url(../images/travaux/tough-800.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 2/ span 3;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.four {
+    background-image: url(../images/travaux/logo-carre-blanc.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 5/ span 3;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.five {
+    background-image: url(../images/travaux/base_site0.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 2/ span 3;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .grid-item.six {
+    background-image: url(../images/travaux/bx_rose.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 5/ span 3;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.seven {
+    background-image: url(../images/travaux/lino-800.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 5/ span 3;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.nine {
+    background-image: url(../images/travaux/animation1.gif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 5/ span 3;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.ten {
+    background-image: url(../images/travaux/animation3.gif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 2/ span 3;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.eleven {
+    background-image: url(../images/travaux/animation4.gif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 2/ span 3;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.twelve {
+    background-image: url(../images/travaux/animation2.gif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 2/ span 3;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.thirteen {
+    background-image: url(../images/travaux/blopi-insta.jpg);
+    background-size: cover;
+    background-position: top;
+    border-radius: 10px;
+    grid-column: 2/ span 3;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.fourteen {
+    background-image: url(../images/travaux/let_go_1.gif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 5/ span 3;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.fifteen {
+    background-image: url(../images/travaux/let_go_2.gif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 5/ span 3;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.sixteen {
+    background-image: url(../images/travaux/let_go_3.gif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 5/ span 3;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.seventeen {
+    background-image: url(../images/travaux/robin.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 2/ span 3;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.eighteen {
+    background-image: url(../images/travaux/vignette_le_phare_final.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 5/ span 3;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.nineteen {
+    background-image: url(../images/travaux/invite_site.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 5/ span 3;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .wrapper-about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 10vw);
+    grid-gap: 1.5em;
+    margin-top: 13em;
+    padding-left: 3em;
+    padding-right: 4em;
+    padding-bottom: 4em;
+  }
+
+  .wrapper-about img {
+    width: 70%;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  .about.one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / span 3;
+    grid-row: 2 / span 2;
+  }
+
+  .about.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / span 2;
+    grid-row: 7;
+  }
+
+  .about.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1   / span 4;
+    grid-row: 6;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 275px;
+    grid-gap: 0.5em;
+    margin-top: 10rem;
+    margin-bottom: 2.5rem;
+    margin-left: 20;
+    margin-right: 20px;
+  }
+
+  .grid-item.one {
+    background-image: url(../images/travaux/kaboom-800.jpg);
+    background-size: cover;
+    background-position: top;
+    border-radius: 10px;
+    grid-column: 2/ span 4;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.two {
+    background-image: url(../images/travaux/by-800.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 2/ span 4;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.three {
+    background-image: url(../images/travaux/tough-800.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 2/ span 4;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.four {
+    background-image: url(../images/travaux/logo-carre-blanc.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 2/ span 4;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.five {
+    background-image: url(../images/travaux/base_site0.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 2/ span 4;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .grid-item.six {
+    background-image: url(../images/travaux/bx_rose.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 2/ span 4;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.seven {
+    background-image: url(../images/travaux/lino-800.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 2/ span 4;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.nine {
+    background-image: url(../images/travaux/animation1.gif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 2/ span 4;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.ten {
+    background-image: url(../images/travaux/animation3.gif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 2/ span 4;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.eleven {
+    background-image: url(../images/travaux/animation4.gif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 2/ span 4;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.twelve {
+    background-image: url(../images/travaux/animation2.gif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 2/ span 4;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.thirteen {
+    background-image: url(../images/travaux/blopi-insta.jpg);
+    background-size: cover;
+    background-position: top;
+    border-radius: 10px;
+    grid-column: 2/ span 4;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.fourteen {
+    background-image: url(../images/travaux/let_go_1.gif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 2/ span 4;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.fifteen {
+    background-image: url(../images/travaux/let_go_2.gif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 2/ span 4;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.sixteen {
+    background-image: url(../images/travaux/let_go_3.gif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 2/ span 4;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.seventeen {
+    background-image: url(../images/travaux/robin.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 2/ span 4;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.eighteen {
+    background-image: url(../images/travaux/vignette_le_phare_final.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 2/ span 4;
+    position: relative;
+    overflow: hidden;
+  }
+  .grid-item.nineteen {
+    background-image: url(../images/travaux/invite_site.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    grid-column: 2/ span 4;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .wrapper-about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 10vw);
+    grid-gap: 1.5em;
+    margin-top: 13em;
+    padding-left: 3em;
+    padding-right: 4em;
+    padding-bottom: 4em;
+  }
+
+  .wrapper-about img {
+    width: 70%;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  .about.one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 2;
+  }
+
+  .about.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / span 2;
+    grid-row: 4;
+  }
+
+  .about.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1   / span 4;
+    grid-row: 3;
+  }
+
+  video {
+	max-width: 100%;
+	height: auto;
+}
+
+  .logo {
+    visibility: hidden;
+  }
+
+  .rs {
+    visibility: hidden;
+  }
+}
